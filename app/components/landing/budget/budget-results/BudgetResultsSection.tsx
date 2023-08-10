@@ -2,6 +2,7 @@
 import useLocalStorage from "@/app/util/useLocalStorage";
 import styles from "./BudgetResultsSection.module.scss";
 import { useEffect, useState } from "react";
+import PieChart from "@/app/components/pie-chart/PieChart";
 
 const BudgetResultsSection = () => {
   const date = new Date();
@@ -33,6 +34,7 @@ const BudgetResultsSection = () => {
       <div className={styles.budget_price_box}>
         <span>{budget}</span> kn
       </div>
+      <PieChart />
     </section>
   );
 };
