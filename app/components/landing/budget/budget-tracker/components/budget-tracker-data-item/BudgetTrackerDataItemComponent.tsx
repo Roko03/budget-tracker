@@ -15,7 +15,7 @@ const BudgetTrackerDataItemComponent: React.FC<Budget> = ({
         {description}
       </span>
       <span className={`${styles.budget_data_item__price} ${priceClass}`}>
-        {price} eur
+        {price} euro
       </span>
     </div>
   );

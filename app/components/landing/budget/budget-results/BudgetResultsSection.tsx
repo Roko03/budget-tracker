@@ -32,7 +32,7 @@ const BudgetResultsSection = () => {
       <h1>Your Budget</h1>
       <span className={styles.budget_date}>{formatedDate}</span>
       <div className={styles.budget_price_box}>
-        <span>{budget}</span> eur
+        <span>{budget}</span> euro
       </div>
       <PieChart />
     </section>
