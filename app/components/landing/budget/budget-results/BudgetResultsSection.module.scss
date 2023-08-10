@@ -7,6 +7,8 @@
   display: flex;
   flex-direction: column;
   gap: rem(24);
+  height: 100vh;
+  width: 50%;
 
   .budget_date {
     font-family: var(--poppins);
@@ -21,5 +23,6 @@
     color: $black;
     font-size: rem(32);
     border-radius: rem(16);
+    font-family: var(--poppins);
   }
 }
