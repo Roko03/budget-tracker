@@ -1,0 +1,25 @@
+@import "../../../../../../styles/index.scss";
+
+.budget_data_item {
+  display: flex;
+  width: 100%;
+  padding: rem(3) 0;
+  border-bottom: 1px solid $black;
+  font-family: var(--poppins);
+
+  &__description {
+    margin-left: rem(16);
+  }
+
+  &__price {
+    margin-left: auto;
+  }
+
+  .income {
+    color: $green;
+  }
+
+  .outcome {
+    color: $red;
+  }
+}

@@ -1,0 +1,60 @@
+@import "../../../../styles/index.scss";
+
+.budget_tracker {
+  background-color: $white;
+  color: $black;
+  padding: rem(32);
+  display: flex;
+  flex-direction: column;
+  gap: rem(24);
+  height: 100vh;
+  width: 50%;
+
+  .budget_select {
+    align-self: flex-start;
+    background-color: $blue;
+    color: $white;
+    font-family: var(--poppins);
+    border: 0;
+    outline: 0;
+    border-radius: rem(4);
+    padding: rem(10);
+    font-size: rem(18);
+
+    option {
+      background-color: $white;
+      color: $black;
+    }
+  }
+
+  .budget_description {
+    display: flex;
+    flex-direction: column;
+    gap: rem(10);
+
+    input {
+      padding: rem(15);
+      font-size: rem(16);
+      outline: none;
+      border: 1px solid #0000001a;
+      border-radius: rem(2);
+    }
+
+    button {
+      background-color: $red;
+      color: $white;
+      font-family: var(--poppins);
+      font-size: rem(16);
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: rem(15) rem(20);
+      align-self: baseline;
+      border-radius: rem(8);
+    }
+  }
+
+  .budget_data {
+    overflow-y: auto;
+  }
+}
