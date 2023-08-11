@@ -1,0 +1,28 @@
+@import "../../../../styles/index.scss";
+
+.budget_results {
+  background-color: $blue;
+  color: $white;
+  padding: rem(32);
+  display: flex;
+  flex-direction: column;
+  gap: rem(24);
+  height: 100vh;
+  width: 50%;
+
+  .budget_date {
+    font-family: var(--poppins);
+    font-size: rem(18);
+    font-weight: 600;
+  }
+
+  .budget_price_box {
+    align-self: flex-start;
+    padding: rem(10) rem(15);
+    background-color: $white;
+    color: $black;
+    font-size: rem(32);
+    border-radius: rem(16);
+    font-family: var(--poppins);
+  }
+}
