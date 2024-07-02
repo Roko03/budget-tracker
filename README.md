@@ -1,6 +1,8 @@
 # Budget tracker
 
-Clean and simple budget tracker website created in Next.JS for the desktop version.
+Clean and simple budget tracker website created in Next.JS for the desktop version
+
+![budget-tracker-computer](https://github.com/Roko03/oop-vjezba/assets/72657685/7a1bbe5d-b419-4d65-85f5-a4d639c10d34)
 
 ## Quick Start
 
