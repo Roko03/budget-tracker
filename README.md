@@ -4,7 +4,19 @@ Clean and simple budget tracker website created in Next.JS for the desktop versi
 
 ![budget-tracker-computer](./public/budget-tracker.png)
 
-## Quick Start
+## Live demo
+
+You can view the live demo of the project [here](https://budget-tracker-o1d802x0y-roko03.vercel.app/).
+
+## Project Structure
+
+- **Folders and Files:** The project follows modular structure for folder with components, pages and utilities
+- **LocalStorage:** Storing object of budget in array that will be stored in the browser
+- **Chart.js:** Create a pie chart of incomes and outcomes to visualize consumption
+- **Technologies Used:** Next.js, SCSS, Chart.js
+- **Considerations:** During development, main focus is on creating simple and clean component and good naming of components
+
+## How to use it
 
 Make sure you have the following installed on your computer:
 
@@ -34,15 +46,3 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000/) to view the project
-
-## Project Structure
-
-- **Folders and Files:** The project follows modular structure for folder with components, pages and utilities
-- **LocalStorage:** Storing object of budget in array that will be stored in the browser
-- **Chart.js:** Create a pie chart of incomes and outcomes to visualize consumption
-- **Technologies Used:** Next.js, SCSS, Chart.js
-- **Considerations:** During development, main focus is on creating simple and clean component and good naming of components
-
-## Live demo
-
-You can view the live demo of the project [here](https://budget-tracker-o1d802x0y-roko03.vercel.app/).
